@@ -1,4 +1,4 @@
-namespace scrapCase.Models;
+namespace TribunalScraper.Models;
 
 public class Decision
 {

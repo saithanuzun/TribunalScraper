@@ -1,6 +1,6 @@
-using scrapCase.Models;
+using TribunalScraper.Models;
 
-namespace scrapCase.Repository;
+namespace TribunalScraper.Repository;
 
 public interface IDecisionRepository
 {

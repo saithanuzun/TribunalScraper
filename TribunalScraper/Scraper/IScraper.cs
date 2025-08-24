@@ -1,4 +1,4 @@
-namespace scrapCase.Scraper;
+namespace TribunalScraper.Scraper;
 
 public interface IScraper
 {

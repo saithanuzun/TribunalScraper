@@ -1,10 +1,10 @@
 ﻿using System.Globalization;
 using System.Text.Json;
 using HtmlAgilityPack;
-using scrapCase;
-using scrapCase.Models;
-using scrapCase.Repository;
-using scrapCase.Scraper;
+using TribunalScraper;
+using TribunalScraper.Models;
+using TribunalScraper.Repository;
+using TribunalScraper.Scraper;
 
 
 
@@ -12,7 +12,7 @@ IScraper scraper = new Scraper(new HtmlWeb());
 
 IDecisionRepository repository = new DecisionRepository(Constants.DatabaseConnectionUrl);
         
-string configPath = "/Users/saithanuzun/Desktop/git-Repositories/scrapCase/scrapCase/appsettings.json";
+string configPath = "/Users/saithanuzun/Desktop/git-Repositories/TribunalScraper/TribunalScraper/appsettings.json";
 var configText = File.ReadAllText(configPath);
 var config = JsonSerializer.Deserialize<AppConfig>(configText);
 

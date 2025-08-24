@@ -1,4 +1,4 @@
-namespace scrapCase;
+namespace TribunalScraper;
 
 public class Constants
 {

@@ -1,6 +1,6 @@
 using System.Globalization;
 
-namespace scrapCase.Extensions;
+namespace TribunalScraper.Extensions;
 
 public static class Extensions
 {

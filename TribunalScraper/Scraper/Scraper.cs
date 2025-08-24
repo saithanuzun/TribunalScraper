@@ -1,9 +1,9 @@
 using System;
 using HtmlAgilityPack;
-using scrapCase;
-using scrapCase.Extensions;
+using TribunalScraper;
+using TribunalScraper.Extensions;
 
-namespace scrapCase.Scraper;
+namespace TribunalScraper.Scraper;
 
 
 public class Scraper : IScraper

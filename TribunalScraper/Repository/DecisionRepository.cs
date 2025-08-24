@@ -1,7 +1,7 @@
 using Npgsql;
-using scrapCase.Models;
+using TribunalScraper.Models;
 
-namespace scrapCase.Repository;
+namespace TribunalScraper.Repository;
 
 public class DecisionRepository : IDecisionRepository
 {
